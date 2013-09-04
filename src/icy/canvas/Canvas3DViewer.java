@@ -116,7 +116,7 @@ public class Canvas3DViewer extends IcyCanvas3D implements ColorChangeListener,
 			@Override
 			public void run() {
 				SystemUtil
-						.addToJavaLibraryPath(new String[] { "C:/Users/Administrator/Documents/eclipse_workspace/3DViewer_Java3D_v10/jar/java3d-1_5_1-windows-i586/bin" });
+						.addToJavaLibraryPath(new String[] { "C:/Users/Administrator/git/IcyPlugin_3DViewer_v1/jar/java3d-1_5_1-windows-i586/bin" });
 				universe = new Image3DUniverse();
 				canvas = (ImageCanvas3D) universe.getCanvas();
 
